@@ -1,0 +1,160 @@
+[Jun 21 21:15:22] Asterisk 13.16.0 built by root @ 4f17211570c2 on a x86_64 running Linux on 2017-06-19 16:28:43 UTC
+[Jun 21 21:15:22] WARNING[6] features_config.c: Parkinglots are no longer configurable in features.conf; parking is now handled by res_parking.conf
+[Jun 21 21:15:22] WARNING[6] features_config.c: The option 'parkext' is no longer configurable in features.conf.
+[Jun 21 21:15:22] WARNING[6] features_config.c: The option 'parkpos' is no longer configurable in features.conf.
+[Jun 21 21:15:22] WARNING[6] features_config.c: The option 'context' is no longer configurable in features.conf.
+[Jun 21 21:15:22] NOTICE[6] cdr.c: CDR simple logging enabled.
+[Jun 21 21:15:22] ERROR[6] cel.c: Unknown event name 'BRIDGE_START'
+[Jun 21 21:15:22] ERROR[6] config_options.c: Error parsing events=APP_START,CHAN_START,CHAN_END,ANSWER,HANGUP,BRIDGE_START,BRIDGE_END at line 76 of 
+[Jun 21 21:15:22] ERROR[6] config_options.c: In cel.conf: Processing options for general failed
+[Jun 21 21:15:22] NOTICE[6] cel.c: Failed to process CEL configuration; using defaults
+[Jun 21 21:15:23] NOTICE[6] loader.c: 251 modules will be loaded.
+[Jun 21 21:15:26] ERROR[6] config_options.c: Unable to load config file 'statsd.conf'
+[Jun 21 21:15:26] WARNING[6] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:15:26] WARNING[6] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:15:26] NOTICE[6] res_odbc.c: res_odbc loaded.
+[Jun 21 21:15:27] WARNING[6] res_phoneprov.c: Unable to find a valid server address or name.
+[Jun 21 21:15:27] ERROR[6] config_options.c: Unable to load config file 'ari.conf'
+[Jun 21 21:15:27] ERROR[6] ari/config.c: Error obtaining config from ari.conf
+[Jun 21 21:15:27] ERROR[6] config_options.c: Unable to load config file 'hep.conf'
+[Jun 21 21:15:27] NOTICE[6] pbx_lua.c: Lua PBX Switch loaded.
+[Jun 21 21:15:27] ERROR[6] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Jun 21 21:15:27] WARNING[6] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Jun 21 21:15:27] NOTICE[6] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jun 21 21:15:27] ERROR[6] res_config_ldap.c: No directory URL or host found.
+[Jun 21 21:15:27] ERROR[6] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun 21 21:15:27] ERROR[6] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Jun 21 21:15:27] ERROR[6] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Jun 21 21:15:27] ERROR[6] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Jun 21 21:15:27] ERROR[6] chan_motif.c: Unable to read config file motif.conf. Module loaded but not running.
+[Jun 21 21:15:27] WARNING[6] channel.c: Already have a handler for type 'MulticastRTP'
+[Jun 21 21:15:27] ERROR[6] chan_multicast_rtp.c: Unable to register channel class 'MulticastRTP'
+[Jun 21 21:15:28] NOTICE[6] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jun 21 21:15:28] ERROR[6] config_options.c: Could not find config type for category 'agents' in 'agents.conf'
+[Jun 21 21:15:28] ERROR[6] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun 21 21:15:28] NOTICE[6] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jun 21 21:16:49] Asterisk 13.16.0 built by root @ 4f17211570c2 on a x86_64 running Linux on 2017-06-19 16:28:43 UTC
+[Jun 21 21:16:49] WARNING[6] features_config.c: Parkinglots are no longer configurable in features.conf; parking is now handled by res_parking.conf
+[Jun 21 21:16:49] WARNING[6] features_config.c: The option 'parkext' is no longer configurable in features.conf.
+[Jun 21 21:16:49] WARNING[6] features_config.c: The option 'parkpos' is no longer configurable in features.conf.
+[Jun 21 21:16:49] WARNING[6] features_config.c: The option 'context' is no longer configurable in features.conf.
+[Jun 21 21:16:49] NOTICE[6] cdr.c: CDR simple logging enabled.
+[Jun 21 21:16:49] ERROR[6] cel.c: Unknown event name 'BRIDGE_START'
+[Jun 21 21:16:49] ERROR[6] config_options.c: Error parsing events=APP_START,CHAN_START,CHAN_END,ANSWER,HANGUP,BRIDGE_START,BRIDGE_END at line 76 of 
+[Jun 21 21:16:49] ERROR[6] config_options.c: In cel.conf: Processing options for general failed
+[Jun 21 21:16:49] NOTICE[6] cel.c: Failed to process CEL configuration; using defaults
+[Jun 21 21:16:49] NOTICE[6] loader.c: 251 modules will be loaded.
+[Jun 21 21:16:49] ERROR[6] config_options.c: Unable to load config file 'statsd.conf'
+[Jun 21 21:16:49] WARNING[6] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:16:49] WARNING[6] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:16:49] NOTICE[6] res_odbc.c: res_odbc loaded.
+[Jun 21 21:16:50] WARNING[6] res_phoneprov.c: Unable to find a valid server address or name.
+[Jun 21 21:16:50] ERROR[6] config_options.c: Unable to load config file 'ari.conf'
+[Jun 21 21:16:50] ERROR[6] ari/config.c: Error obtaining config from ari.conf
+[Jun 21 21:16:50] ERROR[6] config_options.c: Unable to load config file 'hep.conf'
+[Jun 21 21:16:50] NOTICE[6] pbx_lua.c: Lua PBX Switch loaded.
+[Jun 21 21:16:50] ERROR[6] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Jun 21 21:16:50] WARNING[6] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Jun 21 21:16:50] NOTICE[6] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jun 21 21:16:50] ERROR[6] res_config_ldap.c: No directory URL or host found.
+[Jun 21 21:16:50] ERROR[6] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun 21 21:16:50] ERROR[6] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Jun 21 21:16:50] ERROR[6] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Jun 21 21:16:50] ERROR[6] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Jun 21 21:16:50] ERROR[6] chan_motif.c: Unable to read config file motif.conf. Module loaded but not running.
+[Jun 21 21:16:50] WARNING[6] channel.c: Already have a handler for type 'MulticastRTP'
+[Jun 21 21:16:50] ERROR[6] chan_multicast_rtp.c: Unable to register channel class 'MulticastRTP'
+[Jun 21 21:16:51] NOTICE[6] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jun 21 21:16:51] ERROR[6] config_options.c: Could not find config type for category 'agents' in 'agents.conf'
+[Jun 21 21:16:51] ERROR[6] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun 21 21:16:51] NOTICE[6] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jun 21 21:17:49] Asterisk 13.16.0 built by root @ 4f17211570c2 on a x86_64 running Linux on 2017-06-19 16:28:43 UTC
+[Jun 21 21:17:49] WARNING[68] features_config.c: Parkinglots are no longer configurable in features.conf; parking is now handled by res_parking.conf
+[Jun 21 21:17:49] WARNING[68] features_config.c: The option 'parkext' is no longer configurable in features.conf.
+[Jun 21 21:17:49] WARNING[68] features_config.c: The option 'parkpos' is no longer configurable in features.conf.
+[Jun 21 21:17:49] WARNING[68] features_config.c: The option 'context' is no longer configurable in features.conf.
+[Jun 21 21:17:49] NOTICE[68] cdr.c: CDR simple logging enabled.
+[Jun 21 21:17:49] ERROR[68] cel.c: Unknown event name 'BRIDGE_START'
+[Jun 21 21:17:49] ERROR[68] config_options.c: Error parsing events=APP_START,CHAN_START,CHAN_END,ANSWER,HANGUP,BRIDGE_START,BRIDGE_END at line 76 of 
+[Jun 21 21:17:49] ERROR[68] config_options.c: In cel.conf: Processing options for general failed
+[Jun 21 21:17:49] NOTICE[68] cel.c: Failed to process CEL configuration; using defaults
+[Jun 21 21:17:49] NOTICE[68] loader.c: 251 modules will be loaded.
+[Jun 21 21:17:49] ERROR[68] config_options.c: Unable to load config file 'statsd.conf'
+[Jun 21 21:17:49] WARNING[68] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:17:49] WARNING[68] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:17:49] NOTICE[68] res_odbc.c: res_odbc loaded.
+[Jun 21 21:17:50] WARNING[68] res_phoneprov.c: Unable to find a valid server address or name.
+[Jun 21 21:17:50] ERROR[68] config_options.c: Unable to load config file 'ari.conf'
+[Jun 21 21:17:50] ERROR[68] ari/config.c: Error obtaining config from ari.conf
+[Jun 21 21:17:50] ERROR[68] config_options.c: Unable to load config file 'hep.conf'
+[Jun 21 21:17:50] NOTICE[68] pbx_lua.c: Lua PBX Switch loaded.
+[Jun 21 21:17:50] ERROR[68] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Jun 21 21:17:50] WARNING[68] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Jun 21 21:17:50] NOTICE[68] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jun 21 21:17:50] ERROR[68] res_config_ldap.c: No directory URL or host found.
+[Jun 21 21:17:50] ERROR[68] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun 21 21:17:50] ERROR[68] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Jun 21 21:17:50] ERROR[68] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Jun 21 21:17:50] ERROR[68] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Jun 21 21:17:50] ERROR[68] chan_motif.c: Unable to read config file motif.conf. Module loaded but not running.
+[Jun 21 21:17:50] WARNING[68] channel.c: Already have a handler for type 'MulticastRTP'
+[Jun 21 21:17:50] ERROR[68] chan_multicast_rtp.c: Unable to register channel class 'MulticastRTP'
+[Jun 21 21:17:50] NOTICE[68] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jun 21 21:17:51] ERROR[68] config_options.c: Could not find config type for category 'agents' in 'agents.conf'
+[Jun 21 21:17:51] ERROR[68] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun 21 21:17:51] NOTICE[68] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
+[Jun 21 21:37:17] Asterisk 13.16.0 built by root @ 4f17211570c2 on a x86_64 running Linux on 2017-06-19 16:28:43 UTC
+[Jun 21 21:37:17] WARNING[7] features_config.c: Parkinglots are no longer configurable in features.conf; parking is now handled by res_parking.conf
+[Jun 21 21:37:17] WARNING[7] features_config.c: The option 'parkext' is no longer configurable in features.conf.
+[Jun 21 21:37:17] WARNING[7] features_config.c: The option 'parkpos' is no longer configurable in features.conf.
+[Jun 21 21:37:17] WARNING[7] features_config.c: The option 'context' is no longer configurable in features.conf.
+[Jun 21 21:37:17] NOTICE[7] cdr.c: CDR simple logging enabled.
+[Jun 21 21:37:17] ERROR[7] cel.c: Unknown event name 'BRIDGE_START'
+[Jun 21 21:37:17] ERROR[7] config_options.c: Error parsing events=APP_START,CHAN_START,CHAN_END,ANSWER,HANGUP,BRIDGE_START,BRIDGE_END at line 76 of 
+[Jun 21 21:37:17] ERROR[7] config_options.c: In cel.conf: Processing options for general failed
+[Jun 21 21:37:17] NOTICE[7] cel.c: Failed to process CEL configuration; using defaults
+[Jun 21 21:37:18] NOTICE[7] loader.c: 251 modules will be loaded.
+[Jun 21 21:37:23] ERROR[7] config_options.c: Unable to load config file 'statsd.conf'
+[Jun 21 21:37:23] WARNING[7] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:37:23] WARNING[7] res_odbc.c: The 'pooling', 'shared_connections', 'limit', and 'idlecheck' options were replaced by 'max_connections'.  See res_odbc.conf.sample.
+[Jun 21 21:37:23] NOTICE[7] res_odbc.c: res_odbc loaded.
+[Jun 21 21:37:23] WARNING[7] res_phoneprov.c: Unable to find a valid server address or name.
+[Jun 21 21:37:24] ERROR[7] config_options.c: Unable to load config file 'ari.conf'
+[Jun 21 21:37:24] ERROR[7] ari/config.c: Error obtaining config from ari.conf
+[Jun 21 21:37:24] ERROR[7] config_options.c: Unable to load config file 'hep.conf'
+[Jun 21 21:37:24] NOTICE[7] pbx_lua.c: Lua PBX Switch loaded.
+[Jun 21 21:37:24] ERROR[7] config_options.c: Unable to load config file 'res_parking.conf'
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database user found, using 'asterisk' as default.
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database password found, using 'asterisk' as default.
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database host found, using localhost via socket.
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database name found, using 'asterisk' as default.
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database port found, using 3306 as default.
+[Jun 21 21:37:24] WARNING[7] res_config_mysql.c: MySQL RealTime: No database socket found (and unable to detect a suitable path).
+[Jun 21 21:37:24] NOTICE[7] res_config_ldap.c: No directory user found, anonymous binding as default.
+[Jun 21 21:37:24] ERROR[7] res_config_ldap.c: No directory URL or host found.
+[Jun 21 21:37:24] ERROR[7] res_config_ldap.c: Cannot load LDAP RealTime driver.
+[Jun 21 21:37:25] ERROR[7] chan_motif.c: Connection 'local-jabber-account' configured on endpoint 'jingle-endpoint' could not be found
+[Jun 21 21:37:25] ERROR[7] config_options.c: Error parsing connection=local-jabber-account at line 81 of 
+[Jun 21 21:37:25] ERROR[7] config_options.c: In motif.conf: Processing options for jingle-endpoint failed
+[Jun 21 21:37:25] ERROR[7] chan_motif.c: Unable to read config file motif.conf. Module loaded but not running.
+[Jun 21 21:37:25] WARNING[7] channel.c: Already have a handler for type 'MulticastRTP'
+[Jun 21 21:37:25] ERROR[7] chan_multicast_rtp.c: Unable to register channel class 'MulticastRTP'
+[Jun 21 21:37:25] NOTICE[7] confbridge/conf_config_parser.c: Adding default_menu menu to app_confbridge
+[Jun 21 21:37:25] ERROR[7] config_options.c: Could not find config type for category 'agents' in 'agents.conf'
+[Jun 21 21:37:25] ERROR[7] app_agent_pool.c: Unable to load config. Not loading module.
+[Jun 21 21:37:25] NOTICE[7] cel_custom.c: No mappings found in cel_custom.conf. Not logging CEL to custom CSVs.
