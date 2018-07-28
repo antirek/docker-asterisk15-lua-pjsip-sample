@@ -1,7 +1,7 @@
 version: '2'
 services:
   asterisk15:
-    build: .
+    image: antirek/asterisk15-lua:18.07.1
     network_mode: "host"
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
