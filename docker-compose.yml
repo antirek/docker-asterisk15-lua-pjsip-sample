@@ -1,6 +1,6 @@
 version: '2'
 services:
-  asterisk15:
+  asterisk15-lua:
     image: antirek/asterisk15-lua:18.07.1
     network_mode: "host"
     volumes:
@@ -9,3 +9,4 @@ services:
       - "./store/var/log/asterisk:/var/log/asterisk"
       - "./store/var/menu:/var/menu/"
     restart: always
+    command: asterisk && tail -f /var/log/asterisk/messages
