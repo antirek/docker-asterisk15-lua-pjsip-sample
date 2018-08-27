@@ -1,8 +1,8 @@
 version: '2'
 services:
   asterisk15-lua:
-    image: antirek/asterisk15-lua:18.07.1
-    network_mode: "host"
+    image: antirek/asterisk15-lua:18.08.1
+    network_mode: host
     volumes:
       - "/etc/localtime:/etc/localtime:ro"
       - "./store/etc/asterisk/:/etc/asterisk/"

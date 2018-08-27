@@ -1,3 +1,4 @@
+local inspect = require('inspect');
 
 local dial = function (context, extension)
     app.noop("context: " .. context .. ", extension: " .. extension);
@@ -17,6 +18,8 @@ local dial = function (context, extension)
 end;
 
 local ivr = function (context, extension)        
+    local v = '1'
+    app.noop('lolo:'..inspect(v));
     app.read("IVR_CHOOSE", "/var/menu/demo", 1, nil, 2, 3);
     local choose = channel["IVR_CHOOSE"]:get();
 
